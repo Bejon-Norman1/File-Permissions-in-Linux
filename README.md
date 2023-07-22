@@ -60,4 +60,11 @@ The first two lines of the screenshot display the commands I entered, and the ot
 
 ## Summary
 
-By effectively checking, interpreting, and modifying file and directory permissions, I successfully matched the required level of authorization as per the organization's preferences for the projects directory. Utilizing Linux commands and the `chmod` function, I ensured a secure and compliant file system environment.
+To align with my organization's desired level of authorization, I made several adjustments to the permissions of files and directories within the projects directory. Here's a summary of the steps I followed:
+
+1. Checked Current Permissions: I began by using the `ls -la` command to inspect the existing permissions for the directory. This allowed me to understand the initial setup and informed my subsequent decisions.
+
+2. Modifying Permissions: Based on the information gathered in step 1, I used the `chmod` command multiple times to modify the permissions of specific files and directories as per the organization's requirements.
+
+By following this process, I successfully achieved the desired level of security and access control for the files and directories in the projects directory.
+
