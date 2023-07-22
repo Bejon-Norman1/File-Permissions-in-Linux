@@ -35,9 +35,7 @@ The following code demonstrates how I used Linux commands to do this:
 
 ![Screenshot 2023-07-21 202040](https://github.com/Bejon-Norman1/File-Permissions-in-Linux/assets/19808403/c8ba9c41-2e72-48ee-934e-3cbfee95b7f9)
 
-The first two lines of the screenshot display the commands I entered, and the other lines display the output of the second command. The `chmod` command changes the permissions on files and directories. The first argument indicates what permissions should be changed, and the second argument specifies the file or directory. In this example, I removed write
-
-permissions from other for the `project_k.txt file`. After this, I used `ls` `-la` to review the updates I made.
+The first two lines of the screenshot display the commands I entered, and the other lines display the output of the second command. The `chmod` command changes the permissions on files and directories. The first argument indicates what permissions should be changed, and the second argument specifies the file or directory. In this example, I removed write permissions from other for the `project_k.txt file`. After this, I used `ls` `-la` to review the updates I made.
 
 ### 4. Change File Permissions on Hidden Files
 
