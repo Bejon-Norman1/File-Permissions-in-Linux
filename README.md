@@ -39,11 +39,24 @@ The first two lines of the screenshot display the commands I entered, and the ot
 
 ### 4. Change File Permissions on Hidden Files
 
-For hidden files, such as those starting with a period (.), I made adjustments to meet the organization's access preferences. By utilizing the `chmod` command, I altered permissions to restrict write access for certain users while preserving read access for others.
+The research team at my organization recently archived `project_x.txt`. They do not want anyone to have write access to this project, but the user and group should have read access.
+
+The following code demonstrates how I used Linux commands to change the permissions:
+
+![Screenshot 2023-07-22 003043](https://github.com/Bejon-Norman1/File-Permissions-in-Linux/assets/19808403/313d5d98-584a-4fad-bfe1-3c586c1d5e9f)
+
+
+The first two lines of the screenshot display the commands I entered, and the other lines display the output of the second command. I know `.project_x.txt` is a hidden file because it starts with a period `(.)`. In this example, I removed write permissions from the user and group, and added read permissions to the group. I removed write permissions from the user with `u-w`. Then, I removed write permissions from the group with `g-w`, and added read permissions to the group with `g+r`.
 
 ### 5. Change Directory Permissions
 
-In accordance with the organization's directives, I adjusted directory permissions to provide exclusive access to specific users. By employing the `chmod` command, I removed execute permissions for unauthorized users while preserving them for designated users.
+My organization only wants the `researcher2` user to have access to the drafts directory and its contents. This means that no one other than `researcher2` should have execute permissions.
+
+The following code demonstrates how I used Linux commands to change the permissions:
+
+![Screenshot 2023-07-22 003736](https://github.com/Bejon-Norman1/File-Permissions-in-Linux/assets/19808403/40212266-6505-408c-a418-18ac430aff3b)
+
+The first two lines of the screenshot display the commands I entered, and the other lines display the output of the second command. I previously determined that the group had execute permissions, so I used the `chmod` command to remove them. The `researcher2` user already had execute permissions, so they did not need to be added.
 
 ## Summary
 
