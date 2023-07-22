@@ -2,11 +2,14 @@
 
 ## Project Description
 
-The research team at my organization needed to update the file permissions for certain files and directories within the projects directory. The permissions did not currently reflect the level of authorization that should be given, and ensuring appropriate permissions was crucial for system security. To accomplish this task, I performed the following key responsibilities:
+The research team at my organization required updates to file permissions for specific files and directories within the projects directory. The existing permissions did not align with the desired level of authorization, and ensuring appropriate permissions was crucial for system security. To accomplish this task, I performed the following key responsibilities:
 
 ## Responsibilities
 
 ### 1. Check File and Directory Details
+
+![Screenshot 2023-07-21 200736](https://github.com/Bejon-Norman1/File-Permissions-in-Linux/assets/19808403/d1169f71-b239-4771-9e29-98ac7f59be2c)
+
 
 I utilized Linux commands to determine the current permissions set for a specific directory in the file system. By employing the `ls` command with the `-la` option, I obtained a detailed listing of the file contents, including hidden files. This information helped in assessing the current permissions and identifying the areas that required modification.
 
